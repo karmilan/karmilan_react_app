@@ -1,24 +1,19 @@
-import logo from './logo.svg';
+import { Box } from '@mui/material';
 import './App.css';
+import HeaderContainer from './components/header/HeaderContainer';
+import TopContainer from './components/topbar/TopContainer';
+import { globalStyle } from './style/GlobalStyles';
+import SkillContainer from './components/skills/SkillContainer';
+import ExperienceContainer from './components/experience/ExperienceContainer';
+import ProjectContainer from './components/projects/ProjectContainer';
+import ContactContainer from './components/contact/ContactContainer';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Box sx={globalStyle.primaryBgColor} p='1px'>
+      <HeaderContainer />
+     
+    </Box>
   );
 }
 
