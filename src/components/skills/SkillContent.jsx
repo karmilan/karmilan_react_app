@@ -21,7 +21,7 @@ const SkillContent = () => {
                         skillStyle.skillProgressStyle
                     }
                     variant="determinate"
-                    value={50}/>
+                    value={75}/>
 
 
                 <Typography component='h5'
@@ -42,7 +42,7 @@ const SkillContent = () => {
                         skillStyle.skillProgressStyle
                     }
                     variant="determinate"
-                    value={50}/>
+                    value={65}/>
 
                 <Typography component='h5'
                     sx={
@@ -52,7 +52,7 @@ const SkillContent = () => {
                         skillStyle.skillProgressStyle
                     }
                     variant="determinate"
-                    value={50}/>
+                    value={70}/>
 
                 <Typography component='h5'
                     sx={
@@ -72,7 +72,7 @@ const SkillContent = () => {
                         skillStyle.skillProgressStyle
                     }
                     variant="determinate"
-                    value={50}/>
+                    value={80}/>
 
             </Grid>
         </Grid>
