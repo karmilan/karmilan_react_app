@@ -6,7 +6,7 @@ import Button from '@mui/material/Button';
 import resume from '../../assets/Resume-Karmilan-FullStack-v1.pdf'
 
 const TopContent = () => {
-    // const resume = '../../assets/Resume-Karmilan-FullStack-v1.pdf'
+    const resume = 'https://bitly.ws/Ymxr'
     return (
         <>
             <Grid sx={
@@ -24,9 +24,8 @@ const TopContent = () => {
 
                 <Grid container
                     mt={{xs:3, md:4}}>
-                    {/* <Button href={resume} size="large" variant="contained" */}
-                    {/* <Button href='https://bitly.ws/WwL6' size="large" variant="contained" */}
-                    <Button href='https://bitly.ws/Y5CV' size="large" variant="contained"
+                    
+                    <Button href={resume} size="large" variant="contained"
                         sx={{
                             ...globalStyle.secondaryBgColor, '&:hover':{backgroundColor:'#1a0b2ed1'}
                     }}>Dowload CV</Button>
