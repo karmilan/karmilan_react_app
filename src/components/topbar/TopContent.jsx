@@ -5,7 +5,7 @@ import { globalStyle } from "../../style/GlobalStyles";
 import { topBarStyle } from "./TopBarStyle";
 
 const TopContent = () => {
-  const resume = "https://t.ly/QQovI";
+  const resume = "https://t.ly/sE4bx";
   return (
     <>
       <Grid sx={topBarStyle.topContent}>
