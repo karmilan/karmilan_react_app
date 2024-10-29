@@ -23,6 +23,16 @@ const SkillContent = () => {
                     variant="determinate"
                     value={75}/>
 
+                <Typography component='h5'
+                    sx={
+                        globalStyle.textColor
+                }>React Native</Typography>
+                <LinearProgress sx={
+                        skillStyle.skillProgressStyle
+                    }
+                    variant="determinate"
+                    value={70}/>
+
 
                 <Typography component='h5'
                     sx={
@@ -43,16 +53,6 @@ const SkillContent = () => {
                     }
                     variant="determinate"
                     value={65}/>
-
-                <Typography component='h5'
-                    sx={
-                        globalStyle.textColor
-                }>DynamoDB</Typography>
-                <LinearProgress sx={
-                        skillStyle.skillProgressStyle
-                    }
-                    variant="determinate"
-                    value={70}/>
 
                 <Typography component='h5'
                     sx={
